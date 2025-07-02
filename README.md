@@ -59,7 +59,7 @@ Or clone and install locally:
 
 ```bash
 git clone https://github.com/nickramsay19/tupleclass
-cd nicklib-vector
+cd tupleclass
 pip install .
 ```
 
