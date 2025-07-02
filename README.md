@@ -35,7 +35,7 @@ assert list(d) == [10, 'hi']
 assert len(d) == 2
 ```
 
-Tuple classes can also be inherited to form more tupleclasses. New annotations defined in subtypes get added in order.
+Tuple classes can also be inherited. New annotations defined in subtypes get added in order.
 
 ```py
 class A(TupleClass):
@@ -49,3 +49,24 @@ assert b.a == 'a'
 assert b.b == 'b'
 ```
 
+## 📦 Installation
+
+```bash
+pip install git+https://github.com/nickramsay19/tupleclass.git
+```
+
+Or clone and install locally:
+
+```bash
+git clone https://github.com/nickramsay19/tupleclass
+cd nicklib-vector
+pip install .
+```
+
+## 🧪 Testing
+
+Run unit tests using:
+
+```bash
+python -m unittest discover tests
+```

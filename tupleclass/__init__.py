@@ -12,7 +12,6 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field, fields, MISSING, make_dataclass
 import functools
 import io
-import unittest
 
 class _TupleClassMeta(type):
     """The metaclass of TupleClass (see below for TupleClass)"""
